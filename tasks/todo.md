@@ -23,6 +23,8 @@ Verification completed on 8 August 2026:
 
 - [x] Confirm the source files included in the repository
 - [x] Initialise the repository on the `main` branch
-- [ ] Commit the verified site
-- [ ] Create and push the public GitHub repository
-- [ ] Confirm public visibility and the remote commit
+- [x] Commit the verified site
+- [x] Create and push the public GitHub repository
+- [x] Confirm public visibility and the remote commit
+
+Published to `https://github.com/andrewjamesford/codewithandrewford-co-nz` with `main` as the default branch. GitHub reports the repository visibility as public, and the local branch matches `origin/main`.
