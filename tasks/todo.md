@@ -48,3 +48,15 @@ Deployment verification completed on 8 August 2026:
 - `https://www.codewithandrewford.com/` redirects to the canonical non-www domain
 - HTTP requests redirect to HTTPS, and `/favicon.svg` returns HTTP 200
 - The existing andrewford.co.nz, FastTempo, Health Scan Express API, Health Scan Express Web, Selfhost, and SlideVids resources all still report as running
+
+## Google Analytics and Search Console
+
+- [x] Create a dedicated GA4 property and web data stream for `codewithandrewford.com`
+- [x] Add the GA4 tag to the Astro page without collecting custom personal data
+- [x] Correct the canonical site URL from the old `.co.nz` hostname to `.com`
+- [x] Add and verify `/sitemap.xml` and `/robots.txt`
+- [ ] Build, commit, push, and deploy the updated site
+- [ ] Verify the production analytics tag, canonical metadata, sitemap, and robots rules
+- [ ] Add and verify the site in Google Search Console
+- [ ] Submit the production sitemap and confirm Google accepts it
+- [ ] Confirm the pre-existing Coolify applications remain running
