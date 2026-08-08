@@ -73,5 +73,7 @@ Analytics and indexing setup completed on 8 August 2026:
 - Search Console domain property `codewithandrewford.com` reports Andrew as a verified owner
 - Search Console accepted `https://codewithandrewford.com/sitemap.xml` with status `Success` and one discovered page
 - The Search Console property is associated with the new GA4 property and web stream
+- GA4 real-time reporting received the production verification visit and reported one active user from New Zealand
+- Search Console found the homepage through the sitemap and accepted a manual indexing request into its priority crawl queue
 - Search Console reported a historical `Deceptive pages` issue with no sample URLs. The current static site was reviewed and a security review request was submitted successfully.
 - andrewford.co.nz, FastTempo, both Health Scan Express resources, Selfhost, and SlideVids still report as running
