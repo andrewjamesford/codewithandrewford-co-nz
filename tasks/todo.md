@@ -55,8 +55,23 @@ Deployment verification completed on 8 August 2026:
 - [x] Add the GA4 tag to the Astro page without collecting custom personal data
 - [x] Correct the canonical site URL from the old `.co.nz` hostname to `.com`
 - [x] Add and verify `/sitemap.xml` and `/robots.txt`
-- [ ] Build, commit, push, and deploy the updated site
-- [ ] Verify the production analytics tag, canonical metadata, sitemap, and robots rules
-- [ ] Add and verify the site in Google Search Console
-- [ ] Submit the production sitemap and confirm Google accepts it
-- [ ] Confirm the pre-existing Coolify applications remain running
+- [x] Build, commit, push, and deploy the updated site
+- [x] Verify the production analytics tag, canonical metadata, sitemap, and robots rules
+- [x] Add and verify the site in Google Search Console
+- [x] Submit the production sitemap and confirm Google accepts it
+- [x] Confirm the pre-existing Coolify applications remain running
+- [ ] Confirm Google clears the historical `Deceptive pages` warning after its security review
+
+Analytics and indexing setup completed on 8 August 2026:
+
+- GA4 property: `Code with Andrew Ford` (`549081768`)
+- Web stream: `Code with Andrew Ford Website` (`15401615421`)
+- Measurement ID: `G-NWMRVPLT4E`
+- Production commit: `30f1aebeaf933af6b3635d4915c23e005958da7c`
+- Coolify deployment: `wp2ars036wrk7e6tshrx9v7m`, finished successfully
+- Production exposes the GA4 tag, `.com` canonical and Open Graph URLs, valid `/sitemap.xml`, and `/robots.txt`
+- Search Console domain property `codewithandrewford.com` reports Andrew as a verified owner
+- Search Console accepted `https://codewithandrewford.com/sitemap.xml` with status `Success` and one discovered page
+- The Search Console property is associated with the new GA4 property and web stream
+- Search Console reported a historical `Deceptive pages` issue with no sample URLs. The current static site was reviewed and a security review request was submitted successfully.
+- andrewford.co.nz, FastTempo, both Health Scan Express resources, Selfhost, and SlideVids still report as running
